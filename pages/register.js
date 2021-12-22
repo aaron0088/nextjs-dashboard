@@ -10,7 +10,7 @@ export default function Register() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-    <div className="w-screen h-screen bg-[url('https://test.mnerdsdev.com/Form-bg.svg')] bg-cover bg-center">
+    <div className="w-screen h-screen bg-[url('https://test.mnerdsdev.com/form-bg-update1.1.svg')] bg-cover bg-center">
       <div className="flex justify-center">
           <div className="mt-10 mb-24 text-4xl">
               <h1>DELEGATES REGISTRATION</h1>
