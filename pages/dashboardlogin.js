@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function DashboardLogin() {
     return(
@@ -20,15 +21,15 @@ export default function DashboardLogin() {
           </div>
           <div className="flex items-center justify-center w-screen">
             <form className="content-center" method="POST" action="">
-            <label for="name">User Name</label><br/>
-            <input className="bg-gray-200 border-2 border-gray-500" id="name" type="text" autocomplete="name"/> <br/> <br/>
+            <label htmlFor="name">User Name</label><br/>
+            <input className="bg-gray-200 border-2 border-gray-500" id="name" type="text" autoComplete="name"/> <br/> <br/>
 
-            <label for="name">Password</label><br/>
-            <input className="bg-gray-200 border-2 border-gray-500" id="name" type="password" autocomplete="name" required /> <br/> <br/>
+            <label htmlFor="name">Password</label><br/>
+            <input className="bg-gray-200 border-2 border-gray-500" id="name" type="password" autoComplete="name"/> <br/> <br/>
 
             
 
-            <button className="border-2 bg-[#064c7a] text-gray-100 text-2xl p-2 px-[6rem] rounded-xl"><a href="/regpref">Login</a></button>
+            <button className="border-2 bg-[#064c7a] text-gray-100 text-2xl p-2 px-[6rem] rounded-xl"><Link href="/">Login</Link></button>
           </form>
           </div>
         </div>

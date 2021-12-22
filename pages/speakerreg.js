@@ -20,16 +20,16 @@ export default function Register() {
           </div>
           <div className="flex items-center justify-center w-screen">
             <form className="content-center" method="POST" action="">
-            <label for="name">Full Name</label><br/>
+            <label htmlFor="name">Full Name</label><br/>
             <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="text" autocomplete="name"/> <br/> <br/>
 
-            <label for="name">Email</label><br/>
+            <label htmlFor="name">Email</label><br/>
             <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="email" autocomplete="name"/> <br/> <br/>
 
-            <label for="name">Contact Number</label><br/>
+            <label htmlFor="name">Contact Number</label><br/>
             <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="text" autocomplete="name"/> <br/> <br/>
 
-            <label for="prefix">Prefix</label><br/>
+            <label htmlFor="prefix">Prefix</label><br/>
     	        <select name="prefix" className="bg-gray-200 border-2 border-gray-500 w-[100%] p-1">
               <option id="tansri" value = "tansri" selected disabled>Please Select</option>
                <option id="tansri" value = "tansri">Tan Sri</option>
@@ -48,10 +48,10 @@ export default function Register() {
                <option id="other" value = "other">Other</option>
              </select> <br/> <br/>
 
-             <label for="name">Organization/University/Institute/College</label><br/>
+             <label htmlFor="name">Organization/University/Institute/College</label><br/>
             <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="text" autocomplete="name"/> <br/> <br/>
 
-            <label for="nationality">Nationality:</label><br/>
+            <label htmlFor="nationality">Nationality:</label><br/>
 				  <select className="bg-gray-200 border-2 border-gray-500 w-[100%] p-1" name="nationality">
 					
 					<optgroup label="Nationality">
@@ -108,7 +108,7 @@ export default function Register() {
 					<option value="Congo, The Democratic Republic of The">Congo, The Democratic Republic of The</option>
 					<option value="Cook Islands">Cook Islands</option>
 					<option value="Costa Rica">Costa Rica</option>
-					<option value="Cote D'ivoire">Cote D'ivoire</option>
+					<option value="Cote D'ivoire">Cote D&apos;ivoire</option>
 					<option value="Croatia">Croatia</option>
 					<option value="Cuba">Cuba</option>
 					<option value="Cyprus">Cyprus</option>
@@ -169,11 +169,11 @@ export default function Register() {
 					<option value="Kazakhstan">Kazakhstan</option>
 					<option value="Kenya">Kenya</option>
 					<option value="Kiribati">Kiribati</option>
-					<option value="Korea, Democratic People's Republic of">Korea, Democratic People's Republic of</option>
+					<option value="Korea, Democratic People's Republic of">Korea, Democratic People&apos;s Republic of</option>
 					<option value="Korea, Republic of">Korea, Republic of</option>
 					<option value="Kuwait">Kuwait</option>
 					<option value="Kyrgyzstan">Kyrgyzstan</option>
-					<option value="Lao People's Democratic Republic">Lao People's Democratic Republic</option>
+					<option value="Lao People's Democratic Republic">Lao People&apos;s Democratic Republic</option>
 					<option value="Latvia">Latvia</option>
 					<option value="Lebanon">Lebanon</option>
 					<option value="Lesotho">Lesotho</option>
@@ -302,7 +302,7 @@ export default function Register() {
 					
 				  </select><br/><br/>
             
-            <label for="name">File Upload</label><br/>
+            <label htmlFor="name">File Upload</label><br/>
             <input className="" id="name" type="file" autocomplete="name"/> <br/> <br/>
 
             
