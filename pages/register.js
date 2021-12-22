@@ -24,13 +24,13 @@ export default function Register() {
             <div className="m-3"> 
             <div className="text-2xl">Personal Information</div><br/>
             <label htmlFor="name">Full Name</label><br/>
-            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="text" autocomplete="name"/> <br/> <br/>
+            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="text" autoComplete="name"/> <br/> <br/>
 
             <label htmlFor="name">Email</label><br/>
-            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="email" autocomplete="name" required /> <br/> <br/>
+            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="email" autoComplete="name" required /> <br/> <br/>
 
             <label htmlFor="name">Contact Number</label><br/>
-            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="text" autocomplete="name" required /> <br/> <br/>
+            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="text" autoComplete="name" required /> <br/> <br/>
 
             <label htmlFor="prefix">Prefix</label><br/>
     	        <select name="prefix" className="bg-gray-200 border-2 border-gray-500 w-[100%] p-1">
@@ -52,7 +52,7 @@ export default function Register() {
              </select> <br/> <br/>
 
              <label htmlFor="name">Organization/University/Institute/College</label><br/>
-            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="text" autocomplete="name" required /> <br/> <br/>
+            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="text" autoComplete="name" required /> <br/> <br/>
 
             <label htmlFor="nationality">Nationality:</label><br/>
 				  <select className="bg-gray-200 border-2 border-gray-500 w-[100%] p-1" name="nationality" required>
@@ -306,7 +306,7 @@ export default function Register() {
 				  </select><br/><br/>
             
             <label htmlFor="name">Student ID (Image File)</label><br/>
-            <input className="" id="name" type="file" autocomplete="name" required /> <br/> <br/>
+            <input className="" id="name" type="file" autoComplete="name" required /> <br/> <br/>
 
             <label htmlFor="prefix">T-Shirt Size</label><br/>
     	        <select name="prefix" className="bg-gray-200 border-2 border-gray-500 w-[100%] p-1">
@@ -322,13 +322,13 @@ export default function Register() {
             <div className="space-x-4 m-3">
             <div className="text-2xl">Emergency Contact Information</div><br/>
             <label htmlFor="name">Full Name</label><br/>
-            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="text" autocomplete="name" required /> <br/> <br/>
+            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="text" autoComplete="name" required /> <br/> <br/>
 
             <label htmlFor="name">Email</label><br/>
-            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="text" autocomplete="name" required /> <br/> <br/>
+            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="text" autoComplete="name" required /> <br/> <br/>
 
             <label htmlFor="name">Contact Number</label><br/>
-            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="text" autocomplete="name" required /> <br/> <br/>
+            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="text" autoComplete="name" required /> <br/> <br/>
 
             
             <button className="border-2 bg-[#064c7a] text-gray-100 text-2xl p-2 px-[6.25rem] rounded-xl mt-80 absolute right-[26.5%]"><a href="/regpref">Next</a></button>

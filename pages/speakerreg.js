@@ -21,13 +21,13 @@ export default function Register() {
           <div className="flex items-center justify-center w-screen">
             <form className="content-center" method="POST" action="">
             <label htmlFor="name">Full Name</label><br/>
-            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="text" autocomplete="name"/> <br/> <br/>
+            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="text" autoComplete="name"/> <br/> <br/>
 
             <label htmlFor="name">Email</label><br/>
-            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="email" autocomplete="name"/> <br/> <br/>
+            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="email" autoComplete="name"/> <br/> <br/>
 
             <label htmlFor="name">Contact Number</label><br/>
-            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="text" autocomplete="name"/> <br/> <br/>
+            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="text" autoComplete="name"/> <br/> <br/>
 
             <label htmlFor="prefix">Prefix</label><br/>
     	        <select name="prefix" className="bg-gray-200 border-2 border-gray-500 w-[100%] p-1">
@@ -49,7 +49,7 @@ export default function Register() {
              </select> <br/> <br/>
 
              <label htmlFor="name">Organization/University/Institute/College</label><br/>
-            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="text" autocomplete="name"/> <br/> <br/>
+            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="text" autoComplete="name"/> <br/> <br/>
 
             <label htmlFor="nationality">Nationality:</label><br/>
 				  <select className="bg-gray-200 border-2 border-gray-500 w-[100%] p-1" name="nationality">
@@ -303,7 +303,7 @@ export default function Register() {
 				  </select><br/><br/>
             
             <label htmlFor="name">File Upload</label><br/>
-            <input className="" id="name" type="file" autocomplete="name"/> <br/> <br/>
+            <input className="" id="name" type="file" autoComplete="name"/> <br/> <br/>
 
             
 
