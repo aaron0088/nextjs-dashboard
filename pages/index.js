@@ -40,34 +40,34 @@ export default function Home() {
           <div className={styles.centeritems}>
           <div className={styles.grid}>
 
-            <a href="" className={styles.card}>
-              <h2>Speaker Registration &rarr;</h2>
+            <a href="" className={styles.cardthree}>
+              <h2 className="font-bold">Speaker Registration &rarr;</h2>
               <p>View speaker registration data, export report</p>
             </a>
 
             <a
               href=""
-              className={styles.card}
+              className={styles.cardtwo}
             >
-              <h2>Participants Registration &rarr;</h2>
+              <h2 className="font-bold">Participants Registration &rarr;</h2>
               <p>View participants registration data, export report</p>
             </a>
 
             <a
               href=""
-              className={styles.card}
+              className={styles.cardone}
             >
-              <h2>Site Statistics &rarr;</h2>
+              <h2 className="font-bold">Site Statistics &rarr;</h2>
               <p>
                 Graphical views of visits on the site
               </p>
             </a>
 
             <a
-              href=""
-              className={styles.card}
+              href="https://dashboard.stripe.com/"
+              className={styles.cardfour}
             >
-              <h2>Overview of Speakers and Participants Data &rarr;</h2>
+              <h2 className="font-bold">To Stripe Dashboard - Payment Area &rarr;</h2>
               
             </a>
           </div>
