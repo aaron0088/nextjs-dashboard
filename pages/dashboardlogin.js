@@ -12,7 +12,7 @@ export default function DashboardLogin() {
       </Head>
 
     <div className="w-screen h-screen bg-[url('https://test.mnerdsdev.com/form-bg-update1.1.svg')] bg-no-repeat bg-cover bg-center ">
-      <div className="flex justify-center">
+      <div className="flex justify-center pt-24">
           <div className="my-24 text-4xl">
               <h1>Admin Dashboard</h1>
           </div>
@@ -29,7 +29,7 @@ export default function DashboardLogin() {
 
             
 
-            <button className="border-2 bg-[#064c7a] text-gray-100 text-2xl p-2 px-[6rem] rounded-xl"><Link href="/">Login</Link></button>
+            <button className="border-2 bg-[#064c7a] text-gray-100 text-2xl p-2 px-[5rem] mt-5 rounded-xl"><Link href="/">Login</Link></button>
           </form>
           </div>
         </div>

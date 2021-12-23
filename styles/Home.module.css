@@ -21,58 +21,97 @@
   align-items: flex-start;
   justify-content: left;
   flex-wrap: wrap;
-  width: 100%;
+  width: 70%;
   height: 100%;
   padding-top: 3rem;
   padding-left: 3rem;
+  
 }
 
-.card {
+.cardthree {
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
-  color: inherit;
+  color: white;
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 50vw;
-  height: 350px;
-  background-color: #e8ebed;
+  width: 90%;
+  height: 190px;
+  background-color: rgb(100 45 120);
+  border-radius: 1rem;
+  border-width: 3.5px;
+  border-color:black;
+}
+.cardfour {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  width: 90%;
+  height: 190px;
+  background-color: #6f46eb;
   border-radius: 1rem;
   border-width: 3.5px;
   border-color:black;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.cardone {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  width: 90%;
+  height: 190px;
+  background-color: rgb(234 179 8);
+  border-radius: 1rem;
+  border-width: 3.5px;
+  border-color:black;
 }
 
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
+.cardone:hover{filter: drop-shadow(0 0.25rem 0.75rem rgb(234 179 8));}
+.cardtwo:hover{filter: drop-shadow(0 0.25rem 0.75rem rgb(13 148 136));}
+.cardthree:hover{filter: drop-shadow(0 0.25rem 0.75rem rgb(100 45 120));}
+.cardfour:hover{filter: drop-shadow(0 0.25rem 0.75rem #6f46eb);}
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+.cardtwo {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  width: 90%;
+  height: 190px;
+  background-color: rgb(13 148 136);
+  border-radius: 1rem;
+  border-width: 3.5px;
+  border-color:black;
 }
 
 .leftbar{
   width: 15%;
   display: flex;
   flex-direction:column;
-  background-color: #064c7a;
+  background-color: #1076ad;
   color: #fff;
   align-items: center;
   text-align: center;
   height: 100vh;
   border-right: 2px;
   border-color: black;
+  filter: drop-shadow(0.5rem 0 2rem rgb(43, 108, 128));
 }
 
 .title{
@@ -87,10 +126,11 @@
   display: flex;
   flex-direction: column;
   align-items: left;
-  background-image: url('https://test.mnerdsdev.com/Form-bg.svg');
+  background-image: url('https://test.mnerdsdev.com/aspasp-Dashboard.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: right;
+  padding-left: 1.5rem;
 }
 
 @media (max-width: 600px) {

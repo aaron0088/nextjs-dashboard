@@ -12,14 +12,14 @@ export default function Register() {
 
     <div className="w-screen h-screen bg-[url('https://test.mnerdsdev.com/form-bg-update1.1.svg')] bg-no-repeat bg-cover bg-center ">
       <div className="flex justify-center">
-          <div className="my-24 text-4xl">
+          <div className="mt-24 mb-12 text-4xl ml-72">
               <h1>Presenters Registration</h1>
           </div>
 
 
           </div>
           <div className="flex items-center justify-center w-screen">
-            <form className="content-center" method="POST" action="">
+            <form className="content-center pl-72" method="POST" action="">
             <label htmlFor="name">Full Name</label><br/>
             <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="text" autoComplete="name"/> <br/> <br/>
 
@@ -303,11 +303,21 @@ export default function Register() {
 				  </select><br/><br/>
             
             <label htmlFor="name">File Upload</label><br/>
-            <input className="" id="name" type="file" autoComplete="name"/> <br/> <br/>
+            <input className="" id="name" type="file" autoComplete="name" accept=".pdf"/> <br/> <br/>
+
+            <label htmlFor="prefix">T-Shirt Size</label><br/>
+    	        <select name="prefix" className="bg-gray-200 border-2 border-gray-500 w-[100%] p-1">
+               <option id="tansri" value = "tansri">XS</option>
+               <option id="puansri" value = "puansri">S</option>
+               <option id="datuk" value = "datuk">M</option>
+               <option id="datin" value = "datin">L</option>
+               <option id="datuksri" value = "datuksri">XL</option>
+               <option id="datinsri" value = "datinsri">XXL</option>
+             </select> <br/> <br/>
 
             
 
-            <button className="border-2 bg-[#064c7a] text-gray-100 text-2xl p-2 px-[5.1rem] rounded-xl"><a href="https://buy.stripe.com/6oE9Ebftq21xdHyeUU">Register</a></button>
+            <button className="border-2 bg-[#064c7a] text-gray-100 text-2xl p-2 px-[5.1rem] ml-12 rounded-xl mt-10"><a href="https://buy.stripe.com/test_9AQfZMaZP1JxaJO6or">Next</a></button>
           </form>
           </div>
         </div>

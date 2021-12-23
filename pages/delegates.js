@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 
-export default function Register() {
+export default function Delegates() {
     return(
         <div className="m-0 w-screen h-screen ">
         <Head>
@@ -13,7 +13,7 @@ export default function Register() {
     <div className="w-screen h-screen bg-[url('https://test.mnerdsdev.com/form-bg-update1.1.svg')] bg-cover bg-center">
       <div className="flex justify-center">
           <div className="mt-10 mb-24 text-4xl">
-              <h1>STUDENTS REGISTRATION</h1>
+              <h1>DELEGATES REGISTRATION</h1>
           </div>
 
 
@@ -27,10 +27,10 @@ export default function Register() {
             <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="text" autoComplete="name"/> <br/> <br/>
 
             <label htmlFor="name">Email</label><br/>
-            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="email" autoComplete="name" /> <br/> <br/>
+            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="email" autoComplete="name"/> <br/> <br/>
 
             <label htmlFor="name">Contact Number</label><br/>
-            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="text" autoComplete="name" /> <br/> <br/>
+            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="text" autoComplete="name"/> <br/> <br/>
 
             <label htmlFor="prefix">Prefix</label><br/>
     	        <select name="prefix" className="bg-gray-200 border-2 border-gray-500 w-[100%] p-1">
@@ -52,7 +52,7 @@ export default function Register() {
              </select> <br/> <br/>
 
              <label htmlFor="name">Organization/University/Institute/College</label><br/>
-            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="text" autoComplete="name" /> <br/> <br/>
+            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="text" autoComplete="name"/> <br/> <br/>
 
             <label htmlFor="nationality">Nationality:</label><br/>
 				  <select className="bg-gray-200 border-2 border-gray-500 w-[100%] p-1" name="nationality">
@@ -304,9 +304,6 @@ export default function Register() {
 					</optgroup>
 					
 				  </select><br/><br/>
-            
-            <label htmlFor="name">Student ID (Image File)</label><br/>
-            <input className="" id="name" type="file" autoComplete="name" accept="image/*"/> <br/> <br/>
 
 			<label htmlFor="name">File Submission</label><br/>
             <input className="" id="name" type="file" autoComplete="name" accept=".pdf"/> <br/> <br/>
@@ -325,16 +322,16 @@ export default function Register() {
             <div className="space-x-4 m-3">
             <div className="text-2xl">Emergency Contact Information</div><br/>
             <label htmlFor="name">Full Name</label><br/>
-            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="text" autoComplete="name" /> <br/> <br/>
+            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="text" autoComplete="name"/> <br/> <br/>
 
             <label htmlFor="name">Email</label><br/>
-            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="text" autoComplete="name" /> <br/> <br/>
+            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="text" autoComplete="name"/> <br/> <br/>
 
             <label htmlFor="name">Contact Number</label><br/>
             <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" type="text" autoComplete="name"/> <br/> <br/>
 
             
-            <button className="border-2 bg-[#064c7a] text-gray-100 text-2xl p-2 px-[6.25rem] rounded-xl mt-80 absolute right-[20%] bottom-[9%]"><a href="https://buy.stripe.com/test_28o9Bod7X5ZN05a7st">Next</a></button>
+            <button className="border-2 bg-[#064c7a] text-gray-100 text-2xl p-2 px-[6.25rem] rounded-xl mt-80 absolute right-[20%]"><a href="https://buy.stripe.com/test_aEU00O0lbbk76tyeUW">Next</a></button>
 
             </div>
           </form>
