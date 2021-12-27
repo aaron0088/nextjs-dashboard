@@ -19,18 +19,18 @@ export default function Register() {
 
           </div>
           <div className="flex items-center justify-center w-screen pl-72">
-            <form className="content-center grid grid-cols-2 divide-x space-x-4" method="POST" action="https://test.mnerdsdev.com/student.php">
+            <form className="content-center grid grid-cols-2 divide-x space-x-4" method="POST" action="https://test.mnerdsdev.com/student.php" encType="multipart/form-data">
             
             <div className="m-3"> 
             <div className="text-2xl">Personal Information</div><br/>
             <label htmlFor="name">Full Name</label><br/>
             <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" name="name" id="name" type="text"/> <br/> <br/>
 
-            <label htmlFor="name">Email</label><br/>
+            <label htmlFor="email">Email</label><br/>
             <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" name="email" id="email" type="email"/> <br/> <br/>
 
-            <label htmlFor="name">Contact Number</label><br/>
-            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" name="contact" id="contact" type="text"/> <br/> <br/>
+            <label htmlFor="contactno">Contact Number</label><br/>
+            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" name="contactno" id="contactno" type="text"/> <br/> <br/>
 
             <label htmlFor="prefix">Prefix</label><br/>
     	        <select name="prefix" className="bg-gray-200 border-2 border-gray-500 w-[100%] p-1">
@@ -311,27 +311,27 @@ export default function Register() {
 			<label htmlFor="name">File Submission</label><br/>
             <input className="" id="name" name="file" type="file" autoComplete="name" accept=".pdf"/> <br/> <br/>
 
-            <label htmlFor="prefix">T-Shirt Size</label><br/>
-    	        <select name="prefix" className="bg-gray-200 border-2 border-gray-500 w-[100%] p-1">
-               <option id="tansri" value = "xs">XS</option>
-               <option id="puansri" value = "s">S</option>
-               <option id="datuk" value = "m">M</option>
-               <option id="datin" value = "l">L</option>
-               <option id="datuksri" value = "xl">XL</option>
-               <option id="datinsri" value = "xxl">XXL</option>
+            <label htmlFor="tshirtsize">T-Shirt Size</label><br/>
+    	        <select name="tshirtsize" className="bg-gray-200 border-2 border-gray-500 w-[100%] p-1">
+               <option id="xs" value = "xs">XS</option>
+               <option id="s" value = "s">S</option>
+               <option id="m" value = "m">M</option>
+               <option id="l" value = "l">L</option>
+               <option id="xl" value = "xl">XL</option>
+               <option id="xxl" value = "xxl">XXL</option>
              </select> <br/> <br/>
             </div>
             
             <div className="space-x-4 m-3">
             <div className="text-2xl">Emergency Contact Information</div><br/>
-            <label htmlFor="name">Full Name</label><br/>
-            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" name="eemergencyname" id="ename" type="text" autoComplete="name" /> <br/> <br/>
+            <label htmlFor="emergencyname">Full Name</label><br/>
+            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" name="emergencyname" id="emergencyname" type="text" autoComplete="name" /> <br/> <br/>
 
-            <label htmlFor="name">Email</label><br/>
-            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" name="emergencyemail" id="eemail" type="text" autoComplete="name" /> <br/> <br/>
+            <label htmlFor="emergencyemail">Email</label><br/>
+            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" name="emergencyemail" id="emergencyemail" type="text" autoComplete="name" /> <br/> <br/>
 
-            <label htmlFor="name">Contact Number</label><br/>
-            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" name="emergencycontact" id="econtact" type="text" autoComplete="name"/> <br/> <br/>
+            <label htmlFor="emergencyno">Contact Number</label><br/>
+            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" name="emergencyno" id="emergencyno" type="text" autoComplete="name"/> <br/> <br/>
 
             
             <button className="border-2 bg-[#064c7a] text-gray-100 text-2xl p-2 px-[6.25rem] rounded-xl mt-80 absolute right-[20%] bottom-[9%]" type="submit">Next</button>
