@@ -19,7 +19,7 @@ export default function Delegatelocal() {
 
           </div>
           <div className="flex items-center justify-center w-screen pl-72">
-            <form className="content-center grid grid-cols-2 divide-x space-x-4" action="https://test.mnerdsdev.com/delegate.php" method="POST" encType="multipart/form-data">
+            <form className="content-center grid grid-cols-2 divide-x space-x-4" action="https://test.mnerdsdev.com/delegatelocal.php" method="POST" encType="multipart/form-data">
             
             <div className="m-3"> 
             <div className="text-2xl">Personal Information</div><br/>
