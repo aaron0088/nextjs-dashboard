@@ -12,13 +12,13 @@ export default function Speakerreg() {
 
     <div className="w-screen h-screen sm:bg-[url('https://test.mnerdsdev.com/form-bg-update1.1.svg')] bg-no-repeat bg-cover bg-center ">
       <div className="flex justify-center">
-          <div className="mt-24 mb-12 text-4xl sm:ml-72 md:ml-10 ml-14">
+          <div className="mt-24 mb-12 text-4xl sm:ml-72 ml-14">
               <h1>Presenters Registration</h1>
           </div>
 
 
           </div>
-          <div className="flex items-center justify-center w-screen sm:pl-72 md:pl-10">
+          <div className="flex items-center justify-center w-screen sm:pl-72">
             <form className="content-center pl-3" action="https://aspasp2022.xpoexpo.com/presenter.php" method="POST" encType="multipart/form-data">
             <label htmlFor="name">Full Name</label><br/>
             <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" name="name" type="text" autoComplete="name" required/> <br/> <br/>

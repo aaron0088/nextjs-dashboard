@@ -10,9 +10,9 @@ export default function Speakerchoose() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-    <div className="w-screen h-screen sm:bg-[url('https://test.mnerdsdev.com/form-bg-update1.1.svg')] bg-no-repeat bg-cover bg-center ">
+    <div className="sm:pl-44 w-screen h-screen sm:bg-[url('https://test.mnerdsdev.com/form-bg-update1.1.svg')] bg-no-repeat bg-cover bg-center ">
       <div className="flex justify-center">
-          <div className="mt-24 mb-12 sm:text-4xl text-3xl sm:ml-72 md:ml-0 text-center">
+          <div className="mt-24 mb-12 sm:text-4xl text-3xl sm:ml-56 text-center">
               <h1>Presenters Registration</h1>
           </div>
 
