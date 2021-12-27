@@ -12,7 +12,7 @@ export default function Speakerlocal() {
 
     <div className="w-screen h-screen sm:bg-[url('https://test.mnerdsdev.com/form-bg-update1.1.svg')] bg-cover bg-center ">
       <div className="flex justify-center">
-          <div className="mt-24 mb-12 text-4xl sm:ml-72 ml-14">
+          <div className="mt-6 mb-1 text-4xl sm:ml-72 ml-14">
               <h1>Presenters Registration</h1>
           </div>
 
@@ -77,7 +77,7 @@ export default function Speakerlocal() {
 
             
 
-            <button className="border-2 bg-[#064c7a] text-gray-100 text-2xl p-2 px-[5.1rem] ml-10 rounded-xl mt-10" name="submit" type="submit">Next</button>
+            <button className="border-2 bg-[#064c7a] text-gray-100 text-2xl p-2 px-[5.1rem] ml-10 rounded-xl mt-3" name="submit" type="submit">Next</button>
           </form>
           </div>
         </div>
