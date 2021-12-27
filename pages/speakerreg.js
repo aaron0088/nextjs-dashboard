@@ -19,7 +19,7 @@ export default function Speakerreg() {
 
           </div>
           <div className="flex items-center justify-center w-screen sm:pl-72">
-            <form className="content-center pl-3" action="https://aspasp2022.xpoexpo.com/presenter.php" method="POST" encType="multipart/form-data">
+            <form className="content-center p-3 sm:pl-3" action="https://aspasp2022.xpoexpo.com/presenter.php" method="POST" encType="multipart/form-data">
             <label htmlFor="name">Full Name</label><br/>
             <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" name="name" type="text" autoComplete="name" required/> <br/> <br/>
 
