@@ -21,16 +21,16 @@ export default function Speakerlocal() {
           <div className="flex items-center justify-center w-screen">
             <form className="content-center pl-72" action="https://test.mnerdsdev.com/presenterlocal.php" method="POST" encType="multipart/form-data">
             <label htmlFor="name">Full Name</label><br/>
-            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" name="name" type="text" autoComplete="name"/> <br/> <br/>
+            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" name="name" type="text" autoComplete="name" required/> <br/> <br/>
 
             <label htmlFor="email">Email</label><br/>
-            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" name="email" type="email" autoComplete="name"/> <br/> <br/>
+            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" name="email" type="email" autoComplete="name" required/> <br/> <br/>
 
             <label htmlFor="name">Contact Number</label><br/>
-            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" name="contactno" type="text" autoComplete="name"/> <br/> <br/>
+            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" name="contactno" type="text" autoComplete="name" required/> <br/> <br/>
 
             <label htmlFor="prefix">Prefix</label><br/>
-    	        <select name="prefix" className="bg-gray-200 border-2 border-gray-500 w-[100%] p-1">
+    	        <select name="prefix" className="bg-gray-200 border-2 border-gray-500 w-[100%] p-1" required>
               <option id="tansri" value = "tansri" selected disabled>Please Select</option>
                <option id="tansri" value = "tansri">Tan Sri</option>
                <option id="puansri" value = "puansri">Puan Sri</option>
@@ -49,10 +49,10 @@ export default function Speakerlocal() {
              </select> <br/> <br/>
 
              <label htmlFor="organiszation">Organization/University/Institute/College</label><br/>
-            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="oraganization" name="organiszation" type="text" autoComplete="name"/> <br/> <br/>
+            <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="oraganization" name="organiszation" type="text" autoComplete="name" required/> <br/> <br/>
 
             <label htmlFor="nationality">Nationality:</label><br/>
-				  <select className="bg-gray-200 border-2 border-gray-500 w-[100%] p-1" name="nationality">
+				  <select className="bg-gray-200 border-2 border-gray-500 w-[100%] p-1" name="nationality" required>
 					
 					<optgroup label="Nationality">
 					
@@ -63,10 +63,10 @@ export default function Speakerlocal() {
 				  </select><br/><br/>
             
             <label htmlFor="file">File Upload</label><br/>
-            <input className="" id="file" name="file" type="file" autoComplete="name" accept=".pdf"/> <br/> <br/>
+            <input className="" id="file" name="file" type="file" autoComplete="name" accept=".pdf" required/> <br/> <br/>
 
             <label htmlFor="tshirtsize">T-Shirt Size</label><br/>
-    	        <select name="tshirtsize" className="bg-gray-200 border-2 border-gray-500 w-[100%] p-1">
+    	        <select name="tshirtsize" className="bg-gray-200 border-2 border-gray-500 w-[100%] p-1" required>
                <option id="xs" value = "xs">XS</option>
                <option id="s" value = "s">S</option>
                <option id="m" value = "m">M</option>
