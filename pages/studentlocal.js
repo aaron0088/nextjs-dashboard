@@ -11,14 +11,14 @@ export default function Studentlocal() {
       </Head>
 
     <div className="w-screen h-screen sm:bg-[url('https://test.mnerdsdev.com/form-bg-update1.1.svg')] bg-cover bg-center">
-      <div className="flex justify-center">
-          <div className="mt-10 sm:mb-12 text-4xl mx-3">
+      <div className="flex justify-center sm:pl-20">
+          <div className="mt-10 sm:mb-12 text-4xl items-end sm:pl-44">
               <h1>STUDENTS REGISTRATION</h1>
           </div>
 
 
           </div>
-          <div className="flex items-center justify-center w-screen sm:pl-72 md:pl-10">
+          <div className="flex items-center justify-center w-screen sm:pl-72">
             <form className="content-center sm:grid sm:grid-cols-2 sm:divide-x sm:space-x-4" action="https://aspasp2022.xpoexpo.com/studentlocal.php" method="POST" encType="multipart/form-data">
             
             <div className="m-3"> 
