@@ -140,7 +140,7 @@ export default function Emerging() {
              </select> <br/> <br/>
             </div>
             
-            <div className="space-x-4 m-3">
+            <div className="sm:space-x-4 m-3">
             <div className="text-2xl">Emergency Contact Information</div><br/>
             <label htmlFor="emergencyname">Full Name</label><br/>
             <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" name="emergencyname" id="emergencyname" type="text" autoComplete="name" required/> <br/> <br/>
@@ -152,7 +152,7 @@ export default function Emerging() {
             <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" name="emergencyno" id="emergencyno" type="text" autoComplete="name"/> <br/> <br/>
 
             
-            <button className="border-2 bg-[#064c7a] text-gray-100 text-2xl p-2 px-[6.25rem] rounded-xl sm:mt-80 sm:absolute sm:right-[20%] sm:bottom-[9%] md:right-[22%]" name="submit" type="submit">Next</button>
+            <button className="border-2 bg-[#064c7a] text-gray-100 text-2xl p-2 px-[6.25rem] rounded-xl sm:mt-80 sm:absolute sm:right-[20%] sm:bottom-[9%]" name="submit" type="submit">Next</button>
 
             </div>
           </form>
