@@ -10,16 +10,16 @@ export default function Studentlocal() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-    <div className="w-screen h-screen bg-[url('https://test.mnerdsdev.com/form-bg-update1.1.svg')] bg-cover bg-center">
+    <div className="w-screen h-screen sm:bg-[url('https://test.mnerdsdev.com/form-bg-update1.1.svg')] bg-cover bg-center">
       <div className="flex justify-center">
-          <div className="mt-10 mb-24 text-4xl">
+          <div className="mt-10 sm:mb-12 text-4xl mx-3">
               <h1>STUDENTS REGISTRATION</h1>
           </div>
 
 
           </div>
-          <div className="flex items-center justify-center w-screen pl-72">
-            <form className="content-center grid grid-cols-2 divide-x space-x-4" action="https://test.mnerdsdev.com/studentlocal.php" method="POST" encType="multipart/form-data">
+          <div className="flex items-center justify-center w-screen sm:pl-72 md:pl-10">
+            <form className="content-center sm:grid sm:grid-cols-2 sm:divide-x sm:space-x-4" action="https://aspasp2022.xpoexpo.com/studentlocal.php" method="POST" encType="multipart/form-data">
             
             <div className="m-3"> 
             <div className="text-2xl">Personal Information</div><br/>
@@ -94,7 +94,7 @@ export default function Studentlocal() {
             <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" name="emergencyno" id="emergencyno" type="text" autoComplete="name"/> <br/> <br/>
 
             
-            <button className="border-2 bg-[#064c7a] text-gray-100 text-2xl p-2 px-[6.25rem] rounded-xl mt-80 absolute right-[20%] bottom-[9%]" name="submit" type="submit">Next</button>
+            <button className="border-2 bg-[#064c7a] text-gray-100 text-2xl p-2 px-[6.25rem] rounded-xl sm:mt-80 sm:absolute sm:right-[20%] sm:bottom-[9%] md:right-[10%] lg:right-[29%]" name="submit" type="submit">Next</button>
 
             </div>
           </form>

@@ -10,16 +10,16 @@ export default function Speakerlocal() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-    <div className="w-screen h-screen bg-[url('https://test.mnerdsdev.com/form-bg-update1.1.svg')] bg-no-repeat bg-cover bg-center ">
+    <div className="w-screen h-screen sm:bg-[url('https://test.mnerdsdev.com/form-bg-update1.1.svg')] bg-no-repeat bg-cover bg-center ">
       <div className="flex justify-center">
-          <div className="mt-24 mb-12 text-4xl ml-72">
+          <div className="mt-24 mb-12 text-4xl sm:ml-72 ml-14">
               <h1>Presenters Registration</h1>
           </div>
 
 
           </div>
-          <div className="flex items-center justify-center w-screen">
-            <form className="content-center pl-72" action="https://test.mnerdsdev.com/presenterlocal.php" method="POST" encType="multipart/form-data">
+          <div className="flex items-center justify-center w-screen sm:pl-72">
+            <form className="content-center pl-3" action="https://aspasp2022.xpoexpo.com/presenterlocal.php" method="POST" encType="multipart/form-data">
             <label htmlFor="name">Full Name</label><br/>
             <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" id="name" name="name" type="text" autoComplete="name" required/> <br/> <br/>
 
@@ -77,7 +77,7 @@ export default function Speakerlocal() {
 
             
 
-            <button className="border-2 bg-[#064c7a] text-gray-100 text-2xl p-2 px-[5.1rem] ml-12 rounded-xl mt-10" name="submit" type="submit">Next</button>
+            <button className="border-2 bg-[#064c7a] text-gray-100 text-2xl p-2 px-[5.1rem] ml-10 rounded-xl mt-10" name="submit" type="submit">Next</button>
           </form>
           </div>
         </div>

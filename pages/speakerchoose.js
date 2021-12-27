@@ -10,9 +10,9 @@ export default function Speakerchoose() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-    <div className="w-screen h-screen bg-[url('https://test.mnerdsdev.com/form-bg-update1.1.svg')] bg-no-repeat bg-cover bg-center ">
+    <div className="w-screen h-screen sm:bg-[url('https://test.mnerdsdev.com/form-bg-update1.1.svg')] bg-no-repeat bg-cover bg-center ">
       <div className="flex justify-center">
-          <div className="mt-24 mb-12 text-4xl ml-72">
+          <div className="mt-24 mb-12 sm:text-4xl text-3xl sm:ml-72 md:ml-0 text-center">
               <h1>Presenters Registration</h1>
           </div>
 
@@ -20,9 +20,9 @@ export default function Speakerchoose() {
           </div>
           <div className="flex items-center justify-center w-screen">
 
-            <div className="pl-[30%]">
-            <button className="border-2 bg-[#064c7a] w-[30%] text-gray-100 text-2xl p-2 px-[5.1rem] ml-12 rounded-xl mt-10"><a href="./speakerlocal">Click Here for Local Presenter Registration</a></button>
-            <button className="border-2 bg-[#064c7a] w-[30%] text-gray-100 text-2xl p-2 px-[5.1rem] ml-12 rounded-xl mt-10"><a href="./speakerreg">Click Here for Foreign Presenter Registration</a></button>
+            <div className="sm:pl-[30%] md:pl-0 text-center">
+            <button className="border-2 bg-[#064c7a] sm:w-[30%] text-gray-100 text-2xl p-2 px-[5.1rem] sm:ml-12 md:ml-0 rounded-xl mt-10"><a href="./speakerlocal">Click Here for Local Presenter Registration</a></button>
+            <button className="border-2 bg-[#064c7a] sm:w-[30%] text-gray-100 text-2xl p-2 px-[5.1rem] sm:ml-12 md:ml-0 rounded-xl mt-10"><a href="./speakerreg">Click Here for Foreign Presenter Registration</a></button>
             </div>
           </div>
         </div>
