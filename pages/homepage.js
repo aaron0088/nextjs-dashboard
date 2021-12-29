@@ -10,9 +10,9 @@ export default function Homepage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-    <div className="bg-[url('https://aspasp2022.xpoexpo.com/aspasp_a4.png')] w sm:bg-[url('https://aspasp2022.xpoexpo.com/aspasp_registration.png')] bg-no-repeat bg-top sm:bg-center md:bg-center lg:bg-center bg-contain sm:bg-cover md:bg-cover lg:bg-cover h-[100%]">
+    <div className="bg-[url('https://aspasp2022.xpoexpo.com/aspasp_a4.png')] w sm:bg-[url('https://aspasp2022.xpoexpo.com/aspasp_registration.png')] bg-no-repeat bg-top sm:bg-top md:bg-top lg:bg-top bg-contain sm:bg-cover md:bg-cover lg:bg-cover h-[100%]">
           
-        <div className="h-[65%] sm:h-[76%] lg:h-[78%]"></div>
+        <div className="h-[65%] sm:h-[80%] lg:h-[82%]"></div>
         
         <div className="sm:text-4xl text-s text-center text-red-800">
               <h1>Register Now!</h1>
