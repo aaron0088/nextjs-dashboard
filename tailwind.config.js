@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       backgroundImage:{
         'background-pattern': "url('/public/Form-bg.svg')"
-      }
+      },
     },
   },
   plugins: [],
