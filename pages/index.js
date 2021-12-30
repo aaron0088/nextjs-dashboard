@@ -10,18 +10,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-1 flex-row overflow-y-hidden justify-center place-content-center sm:bg-[url('https://aspasp2022.xpoexpo.com/form-bg-update1.1.svg')] bg-cover h-screen bg-top">
-        <div className="flex flex-col sm:ml-[22%] sm:mt-[8%]">
-          <div className="">
-          <Image src="/ASPASP_logo.png" width="500" height="500" alt="ASPASP2022"/>
-          </div>
-
-          <div className="flex flex-col items-center my-5">
-            <a href="/homepage"><button className="text-white hover:text-fuchsia-600 text-4xl bg-fuchsia-600 hover:bg-white border-2 border-white hover:border-fuchsia-600 rounded-full py-2 pt-3 px-20">Click Here to Register</button></a>
-          </div>
-
-        </div>
-      </main>
 
     </div>
   )
