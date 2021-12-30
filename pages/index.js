@@ -13,7 +13,7 @@ export default function Home() {
       <main className="flex flex-1 flex-row overflow-y-hidden justify-center place-content-center sm:bg-[url('https://aspasp2022.xpoexpo.com/form-bg-update1.1.svg')] bg-cover h-screen bg-top">
         <div className="flex flex-col sm:ml-[22%] sm:mt-[8%]">
           <div className="">
-          <Image src="/ASPASP_logo.png" width="500" height="500"/>
+          <Image src="/ASPASP_logo.png" width="500" height="500" alt="ASPASP2022"/>
           </div>
 
           <div className="flex flex-col items-center my-5">
