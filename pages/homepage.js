@@ -12,7 +12,7 @@ export default function Homepage() {
 
     <div className="bg-[url('https://aspasp2022.xpoexpo.com/aspasp_a4.png')] sm:bg-[url('https://aspasp2022.xpoexpo.com/aspasp_registration.png')] md:bg-[url('https://aspasp2022.xpoexpo.com/aspasp_registration.png')] bg-no-repeat bg-top lg:bg-top bg-contain md:bg-cover lg:bg-cover h-[100%]">
           
-        <div className="h-[65%] lg:h-[74%] 2xl:h-[82%] sm:h-[94%]"></div>
+        <div className="h-[70%] lg:h-[74%] 2xl:h-[82%] sm:h-[94%]"></div>
         
         <div className="lg:text-4xl text-s text-center text-red-800">
               <h1>Register Now!</h1>
