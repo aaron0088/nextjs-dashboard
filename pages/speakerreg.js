@@ -10,7 +10,7 @@ export default function Speakerreg() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-    <div className="w-screen h-screen sm:bg-[url('/form-bg-update1.1.svg')] bg-no-repeat bg-cover bg-center ">
+    <div className="w-screen h-screen sm:bg-[url('form-bg-update1.1.svg')] bg-no-repeat bg-cover bg-center ">
       <div className="flex justify-center">
           <div className="mt-6 mb-1 text-4xl sm:ml-72 ml-14">
               <h1>Presenters Registration</h1>
