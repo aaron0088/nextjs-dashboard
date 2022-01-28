@@ -10,7 +10,7 @@ export default function Homepage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-    <div className="bg-[url('https://aspasp2022.xpoexpo.com/aspasp_a4.png')] sm:bg-[url('https://aspasp2022.xpoexpo.com/aspasp_registration.png')] md:bg-[url('https://aspasp2022.xpoexpo.com/aspasp_registration.png')] bg-no-repeat bg-top lg:bg-top bg-contain md:bg-cover lg:bg-cover h-[100%]">
+    <div className="bg-[url('/aspasp_a4.png')] sm:bg-[url('/aspasp_registration.png')] md:bg-[url('/aspasp_registration.png')] bg-no-repeat bg-top lg:bg-top bg-contain md:bg-cover lg:bg-cover h-[100%]">
           
         <div className="h-[70%] lg:h-[74%] 2xl:h-[82%] sm:h-[94%]"></div>
         

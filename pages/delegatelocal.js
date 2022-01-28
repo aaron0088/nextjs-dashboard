@@ -10,7 +10,7 @@ export default function Delegatelocal() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-	  <div className="w-screen h-screen sm:bg-[url('https://test.mnerdsdev.com/form-bg-update1.1.svg')] bg-cover bg-center">
+	  <div className="w-screen h-screen sm:bg-[url('/form-bg-update1.1.svg')] bg-cover bg-center">
       <div className="flex justify-center">
           <div className="mt-10 sm:mb-12 text-4xl items-end sm:pl-44">
               <h1>DELEGATES REGISTRATION</h1>
