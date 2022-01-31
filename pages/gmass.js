@@ -9,7 +9,7 @@ export default function Gmass() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-    <div className="h-screen bg-[url('public/aspasp-registration.png')] bg-no-repeat">
+    <div className="h-screen bg-[url('public/aspasp_registration.png')] bg-no-repeat">
       <div className="flex justify-center">
           <div className="mt-10 mb-24 text-2xl text-white">
               <button className="italic bg-fuchsia-900 px-10 py-2 rounded-full absolute left-[33%] bottom-[5%] drop-shadow-[0_1rem_1.75rem_gray]">DELEGATES Click Here</button>
