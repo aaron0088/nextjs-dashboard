@@ -11,7 +11,7 @@ export default function DashboardLogin() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-    <div className="w-screen h-screen bg-[url('./public/form-bg-update1.1.svg')] bg-no-repeat bg-cover bg-center ">
+    <div className="w-screen h-screen bg-[url('public/form-bg-update1.1.svg')] bg-no-repeat bg-cover bg-center ">
       <div className="flex justify-center pt-24">
           <div className="my-24 text-4xl">
               <h1>Admin Dashboard</h1>
