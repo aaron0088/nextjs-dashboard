@@ -10,7 +10,7 @@ export default function Studentlocal() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-    <div className="w-screen h-screen sm:bg-[url('public/form-bg-update1.1.svg')] bg-cover bg-center">
+    <div className="w-screen h-screen sm:bg-[url('/public/form-bg-update1.1.svg')] bg-cover bg-center">
       <div className="flex justify-center sm:pl-20">
           <div className="mt-10 sm:mb-12 text-4xl items-end sm:pl-44">
               <h1>STUDENTS REGISTRATION</h1>
