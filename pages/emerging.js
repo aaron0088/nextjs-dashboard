@@ -20,7 +20,7 @@ export default function Emerging() {
 
           </div>
           <div className="flex items-center justify-center w-screen sm:pl-72">
-            <form className="content-center sm:grid sm:grid-cols-2 sm:divide-x sm:space-x-4" action="https://aspasp2022.xpoexpo.com/emerging.php" method="POST" encType="multipart/form-data">
+            <form className="content-center sm:grid sm:grid-cols-2 sm:divide-x sm:space-x-4" action="emerging.php" method="POST" encType="multipart/form-data">
             
             <div className="m-3"> 
             <div className="text-2xl">Personal Information</div><br/>
