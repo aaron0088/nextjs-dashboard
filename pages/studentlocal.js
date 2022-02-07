@@ -19,7 +19,7 @@ export default function Studentlocal() {
 
           </div>
           <div className="flex items-center justify-center w-screen sm:pl-72">
-            <form className="content-center sm:grid sm:grid-cols-2 sm:divide-x sm:space-x-4" action="https://aspasp.xpoexpo.com/studentlocal.php" method="POST" encType="multipart/form-data">
+            <form className="content-center sm:grid sm:grid-cols-2 sm:divide-x sm:space-x-4" action="https://aspasp.mnerdsdev.com/studentlocal.php" method="POST" encType="multipart/form-data">
             
             <div className="m-3"> 
             <div className="text-2xl">Personal Information</div><br/>
@@ -69,7 +69,7 @@ export default function Studentlocal() {
             <input className="" id="name" name="studentid" type="file" autoComplete="name" accept="image/*" required/> <br/> <br/>
 
 			<label htmlFor="name">File Submission</label><br/>
-            <input className="" id="name" name="file" type="file" autoComplete="name" accept=".pdf" required/> <br/> <br/>
+            <input className="" id="name" name="file" type="file" autoComplete="name" accept=".pdf"/> <br/> <br/>
 
             <label htmlFor="tshirtsize">T-Shirt Size</label><br/>
     	        <select name="tshirtsize" className="bg-gray-200 border-2 border-gray-500 w-[100%] p-1" required>
