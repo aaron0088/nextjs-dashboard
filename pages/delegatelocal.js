@@ -19,7 +19,7 @@ export default function Delegatelocal() {
 
           </div>
           <div className="flex items-center justify-center w-screen sm:pl-72">
-            <form className="content-center sm:grid sm:grid-cols-2 sm:divide-x sm:space-x-4" action="https://sunbestline.com/delegatelocal.php" method="POST" encType="multipart/form-data">
+            <form className="content-center sm:grid sm:grid-cols-2 sm:divide-x sm:space-x-4" action="https://test.mnerdsdev.com/delegatelocal.php" method="POST" encType="multipart/form-data">
             
             <div className="m-3"> 
             <div className="text-2xl">Personal Information</div><br/>
@@ -92,7 +92,7 @@ export default function Delegatelocal() {
             <input className="bg-gray-200 border-2 border-gray-500 w-[100%]" name="emergencyno" id="emergencyno" type="text" autoComplete="name"/> <br/> <br/>
 
             
-            <button className="border-2 bg-[#064c7a] text-gray-100 text-2xl p-2 px-[6.25rem] rounded-xl sm:mt-80 sm:absolute sm:right-[20%] sm:bottom-[9%]" href="https://buy.stripe.com/28o8z43Fd2Lg1fa8wC" name="submit" type="submit">Next</button>
+            <button className="border-2 bg-[#064c7a] text-gray-100 text-2xl p-2 px-[6.25rem] rounded-xl sm:mt-80 sm:absolute sm:right-[20%] sm:bottom-[9%]" href="" name="submit" type="submit">Next</button>
 
             </div>
           </form>
