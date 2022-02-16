@@ -27,7 +27,7 @@ export default function Gmass() {
       <div className="flex justify-center place-items-end">
         <div className="text-center text-xs lg:my-3 lg:text-sm ">
           <a href="https://aspasp2022.xpoexpo.com/delegatechoose">
-            <button class="py-1 w-[20rem] md:py-2.5 md:w-75 lg:py-2.5 lg:w-75 mx-1 border-2 bg-[#701875] text-white rounded-[999px] hover:drop-shadow-xl">DELEGATES Click here</button>
+            <button className="py-1 w-[20rem] md:py-2.5 md:w-75 lg:py-2.5 lg:w-75 mx-1 border-2 bg-[#701875] text-white rounded-[999px] hover:drop-shadow-xl">DELEGATES Click here</button>
           </a>
 
           <a href="https://aspasp2022.xpoexpo.com/emerging">
