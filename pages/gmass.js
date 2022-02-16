@@ -42,7 +42,7 @@ export default function Gmass() {
             <button className="py-1 w-[20rem] md:py-2.5 md:w-75 lg:py-2.5 lg:w-75 border-2 bg-[#0891b2] text-white rounded-[999px] hover:drop-shadow-xl">PRESENTER Click here</button>
           </a>
           
-          <div class="mt-3">
+          <div className="mt-3">
             <a href="/Basic_InfoPack.pdf" download="ASPASP2022_Basic_Infopack">
               <button className="py-1 w-[20rem] md:py-2.5 md:w-75 lg:py-2.5 lg:w-75 border-2 bg-white text-black rounded-[999px] hover:drop-shadow-xl">DOWNLOAD ASPASP2022 Infopack</button>
             </a>
