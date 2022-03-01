@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 
-export default function Register() {
+export default function Studente() {
     return(
         <div className="m-0 w-screen h-screen ">
         <Head>
