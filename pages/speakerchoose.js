@@ -21,8 +21,8 @@ export default function Speakerchoose() {
           <div className="flex items-center justify-center w-screen">
 
             <div className="sm:pl-[30%] md:pl-0 text-center">
-            <button className="border-2 bg-[#064c7a] sm:w-[30%] text-gray-100 text-2xl p-2 px-[5.1rem] sm:ml-12 md:ml-0 rounded-xl mt-10"><a href="./speakerlocal">Click Here for Local Presenter Registration</a></button>
-            <button className="border-2 bg-[#064c7a] sm:w-[30%] text-gray-100 text-2xl p-2 px-[5.1rem] sm:ml-12 md:ml-0 rounded-xl mt-10"><a href="./speakerreg">Click Here for Foreign Presenter Registration</a></button>
+            <button className="border-2 bg-[#064c7a] sm:w-[30%] text-gray-100 text-2xl p-2 px-[5.1rem] sm:ml-12 md:ml-0 rounded-xl mt-10"><a href="./registration/speakerlocal">Click Here for Local Presenter Registration</a></button>
+            <button className="border-2 bg-[#064c7a] sm:w-[30%] text-gray-100 text-2xl p-2 px-[5.1rem] sm:ml-12 md:ml-0 rounded-xl mt-10"><a href="./registration/speakerreg">Click Here for Foreign Presenter Registration</a></button>
             </div>
           </div>
         </div>
