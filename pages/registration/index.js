@@ -123,29 +123,29 @@ export default function Home() {
 
       <div className="flex justify-center place-items-end">
         <div className="text-center text-xs lg:my-3 lg:text-sm ">
-          <Link href="/registration/delegatechoose">
-            <button className="py-1 w-[20rem] md:py-2.5 md:w-75 lg:py-2.5 lg:w-75 mx-1 border-2 bg-[#701875] text-white rounded-[999px] hover:drop-shadow-xl">DELEGATES Click here</button>
+          <Link href="/registration/delegatechoose" passHref>
+            <button component="a" className="py-1 w-[20rem] md:py-2.5 md:w-75 lg:py-2.5 lg:w-75 mx-1 border-2 bg-[#701875] text-white rounded-[999px] hover:drop-shadow-xl">DELEGATES Click here</button>
           </Link>
 
-          <Link href="/registration/emerging">
-            <button className="py-1 w-[20rem] md:py-2.5 md:w-75 lg:py-2.5 lg:w-75 border-2 bg-[#db2777] text-white rounded-[999px] hover:drop-shadow-xl">DELEGATES (Emerging Countries) Click Here</button>
+          <Link href="/registration/emerging" passHref>
+            <button component="a" className="py-1 w-[20rem] md:py-2.5 md:w-75 lg:py-2.5 lg:w-75 border-2 bg-[#db2777] text-white rounded-[999px] hover:drop-shadow-xl">DELEGATES (Emerging Countries) Click Here</button>
           </Link>
 
-          <Link href="/registration/studente">
-            <button className="py-1 w-[20rem] md:py-2.5 md:w-75 lg:py-2.5 lg:w-75 border-2 bg-[#210c96] text-white rounded-[999px] hover:drop-shadow-xl">STUDENTS (Emerging Countries) Click Here</button>
+          <Link href="/registration/studente" passHref>
+            <button component="a" className="py-1 w-[20rem] md:py-2.5 md:w-75 lg:py-2.5 lg:w-75 border-2 bg-[#210c96] text-white rounded-[999px] hover:drop-shadow-xl">STUDENTS (Emerging Countries) Click Here</button>
           </Link>
 
-          <Link href="/registration/studentchoose">
-            <button className="text-black py-1 w-[20rem] md:py-2.5 md:w-75 lg:py-2.5 lg:w-75 mx-1 border-2 bg-[#eab308] rounded-[999px] hover:drop-shadow-xl">STUDENTS Click here</button>
+          <Link href="/registration/studentchoose" passHref>
+            <button component="a" className="text-black py-1 w-[20rem] md:py-2.5 md:w-75 lg:py-2.5 lg:w-75 mx-1 border-2 bg-[#eab308] rounded-[999px] hover:drop-shadow-xl">STUDENTS Click here</button>
           </Link>
           
-          <Link href="/registration/speakerchoose">
-            <button className="py-1 w-[20rem] md:py-2.5 md:w-75 lg:py-2.5 lg:w-75 border-2 bg-[#0891b2] text-white rounded-[999px] hover:drop-shadow-xl">PRESENTER Click here</button>
+          <Link href="/registration/speakerchoose" passHref>
+            <button component="a" className="py-1 w-[20rem] md:py-2.5 md:w-75 lg:py-2.5 lg:w-75 border-2 bg-[#0891b2] text-white rounded-[999px] hover:drop-shadow-xl">PRESENTER Click here</button>
           </Link>
           
           <div className="mt-3">
-            <Link href="/ASPASP2022_Basic_Infopack.pdf" download="ASPASP2022_Basic_Infopack">
-              <button className="py-1 w-[20rem] md:py-2.5 md:w-75 lg:py-2.5 lg:w-75 border-2 bg-white text-black rounded-[999px] hover:drop-shadow-xl">DOWNLOAD ASPASP2022 Infopack</button>
+            <Link href="/ASPASP2022_Basic_Infopack.pdf" download="ASPASP2022_Basic_Infopack" passHref>
+              <button component="a" className="py-1 w-[20rem] md:py-2.5 md:w-75 lg:py-2.5 lg:w-75 border-2 bg-white text-black rounded-[999px] hover:drop-shadow-xl">DOWNLOAD ASPASP2022 Infopack</button>
             </Link>
           </div>
         </div>

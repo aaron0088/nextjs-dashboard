@@ -21,8 +21,8 @@ export default function Studentchoose() {
           <div className="flex items-center justify-center w-screen">
 
             <div className="sm:pl-[30%] md:pl-0 text-center">
-            <button className="border-2 bg-[#064c7a] sm:w-[30%] text-gray-100 text-2xl p-2 px-[5.1rem] sm:ml-12 md:ml-0 rounded-xl mt-10"><Link href="./studentlocal">Click Here for Local Students Registration</Link></button>
-            <button className="border-2 bg-[#064c7a] sm:w-[30%] text-gray-100 text-2xl p-2 px-[5.1rem] sm:ml-12 md:ml-0 rounded-xl mt-10"><Link href="./register">Click Here for Foreign Students Registration</Link></button>
+            <Link href="./studentlocal" passHref><button className="border-2 bg-[#064c7a] sm:w-[30%] text-gray-100 text-2xl p-2 px-[5.1rem] sm:ml-12 md:ml-0 rounded-xl mt-10">Click Here for Local Students Registration</button></Link>
+            <Link href="./register" passHref><button className="border-2 bg-[#064c7a] sm:w-[30%] text-gray-100 text-2xl p-2 px-[5.1rem] sm:ml-12 md:ml-0 rounded-xl mt-10">Click Here for Foreign Students Registration</button></Link>
             </div>
           </div>
         </div>
