@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Delegatechoose() {
     return(
@@ -21,8 +21,8 @@ export default function Delegatechoose() {
           <div className="flex items-center justify-center w-screen">
 
             <div className="sm:pl-[30%] md:pl-0 text-center">
-            <button className="border-2 bg-[#064c7a] sm:w-[30%] text-gray-100 text-2xl p-2 px-[5.1rem] sm:ml-12 md:ml-0 rounded-xl mt-10"><a href="./delegatelocal">Click Here for Local Delegates Registration</a></button>
-            <button className="border-2 bg-[#064c7a] sm:w-[30%] text-gray-100 text-2xl p-2 px-[5.1rem] sm:ml-12 md:ml-0 rounded-xl mt-10"><a href="./delegates">Click Here for Foreign Delegates Registration</a></button>
+            <button className="border-2 bg-[#064c7a] sm:w-[30%] text-gray-100 text-2xl p-2 px-[5.1rem] sm:ml-12 md:ml-0 rounded-xl mt-10"><Link href="./delegatelocal">Click Here for Local Delegates Registration</Link></button>
+            <button className="border-2 bg-[#064c7a] sm:w-[30%] text-gray-100 text-2xl p-2 px-[5.1rem] sm:ml-12 md:ml-0 rounded-xl mt-10"><Link href="./delegates">Click Here for Foreign Delegates Registration</Link></button>
             </div>
           </div>
         </div>

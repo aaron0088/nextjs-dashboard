@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Studentchoose() {
     return(
@@ -21,8 +21,8 @@ export default function Studentchoose() {
           <div className="flex items-center justify-center w-screen">
 
             <div className="sm:pl-[30%] md:pl-0 text-center">
-            <button className="border-2 bg-[#064c7a] sm:w-[30%] text-gray-100 text-2xl p-2 px-[5.1rem] sm:ml-12 md:ml-0 rounded-xl mt-10"><a href="./studentlocal">Click Here for Local Students Registration</a></button>
-            <button className="border-2 bg-[#064c7a] sm:w-[30%] text-gray-100 text-2xl p-2 px-[5.1rem] sm:ml-12 md:ml-0 rounded-xl mt-10"><a href="./register">Click Here for Foreign Students Registration</a></button>
+            <button className="border-2 bg-[#064c7a] sm:w-[30%] text-gray-100 text-2xl p-2 px-[5.1rem] sm:ml-12 md:ml-0 rounded-xl mt-10"><Link href="./studentlocal">Click Here for Local Students Registration</Link></button>
+            <button className="border-2 bg-[#064c7a] sm:w-[30%] text-gray-100 text-2xl p-2 px-[5.1rem] sm:ml-12 md:ml-0 rounded-xl mt-10"><Link href="./register">Click Here for Foreign Students Registration</Link></button>
             </div>
           </div>
         </div>
